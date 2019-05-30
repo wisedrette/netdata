@@ -1,0 +1,6 @@
+deployments:
+  netdata:
+    auto_deploy_on_commits: true
+    filename: ./packaging/docker/Dockerfile
+    context_path: ./
+    
